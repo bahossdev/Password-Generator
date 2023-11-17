@@ -16,6 +16,9 @@ Answer each prompt to select your preferred criteria. When you are done, the pas
 
 ## Credits
 
+The starter code can be found at:
+https://bootcampspot.instructure.com/courses/4623/assignments/65758
+
 To write the JS I have read the solution to class activities, along with resources from MDN, W3School, Stack Overflow, and other similar educational websites.
 
 ## License
