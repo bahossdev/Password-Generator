@@ -13,10 +13,10 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// Function declaration
-function generatePassword() {
+// // Function declaration
+// function generatePassword() {
 
-}
+// }
 // it has to be prompted with click on the bottun NOT on page opening!!
 // 1st prompt: Welcome to Password Generator! Please press Okay to continue.
 
@@ -138,14 +138,14 @@ function generatePassword(length) {
     };
     console.log(result);
 };
+return result;
 };
 var iteration = Math.floor(passLength/typeN) + 1;
-generatePassword(iteration);
-console.log(generatePassword(iteration));
+
 var longPassword = generatePassword(iteration);
 var l = longPassword.length;
 var p = Number(passLength);
 var n = l - p;
 console.log(l, p, n);
 var password = longPassword.slice(n);
-// console.log(generatePassword(iteration));
+console.log(password);
