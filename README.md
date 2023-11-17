@@ -23,10 +23,10 @@ To write the JS I have read the solution to class activities, along with resourc
 Please refer to the LICENSE in the repo.
 
 ## Link to deployed application:
-
+https://bahossdev.github.io/Password-Generator/
 
 ## Link to the Repository:
-
+https://github.com/bahossdev/Password-Generator.git
 
 ## Screenshot
 
