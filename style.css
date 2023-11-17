@@ -12,6 +12,7 @@ body,
   padding: 0;
 }
 
+/* body font and background */
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
@@ -30,6 +31,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/* style card */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -72,9 +74,10 @@ header {
   clear: both;
 }
 
+/* style the button */
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: hsl(187, 83%, 31%);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -97,6 +100,7 @@ button[disabled] {
   float: right;
 }
 
+/* style password textbox */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -118,6 +122,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* responsive design for smaller screens */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
